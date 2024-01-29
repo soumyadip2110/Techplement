@@ -1,0 +1,394 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+}
+
+/* Nav Bar */
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav > ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.name{
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: underline 2px blue;
+    padding-right: 20px;
+    margin: 10px;
+    text-shadow: 0px 0px 4px #3a4452;
+}
+
+span{
+    color: #33ffd8;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home{
+    height: 110vh;
+}
+
+.container-1{
+    background-color: #3a4452;
+    display: flex;
+    height: 100%;
+}
+
+.intro-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-intro-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-intro-box a{
+    text-decoration: none;
+}
+
+.sub-intro-box h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub-intro-box h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.resume-btn{
+    background-color: #3a4452;
+    cursor: pointer;
+    margin-top: 40px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 0px 14px #33ffd8;
+    color: #33ffd8;
+}
+.image-box{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.image-box img{
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #33ffd8;
+    border: 3px solid #33ffd8;
+}
+
+/* About Section */
+#about{
+    background-color: #323a46;
+    padding: 20px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: 70px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-2 h1{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.about-box{
+    border-radius: 8px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px #33ffd8;
+}
+
+.about-box p{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.tab-btns{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px auto;
+}
+
+.tabs{
+    display: flex;
+    border-radius: 10px;
+}
+
+.tab-btns h4{
+    background-color: #3a4452;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 10px #33ffd8;
+    color: #33ffd8;
+    padding: 5px 7px;
+    margin: auto 10px;
+}
+
+.skills-tab{
+    width: 100%;
+    display: none;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.list ul{
+    margin: 15px 25px;
+}
+
+ul li{
+    margin: 10px;
+}
+
+.education-tab{
+    display: none;
+}
+
+.experience-tab{
+    margin: 20px;
+    display: none;
+}
+
+.display-tab{
+    display: block;
+}
+
+th{
+    padding: 2px;
+}
+
+td{
+    padding: 5px;
+}
+
+/* Project Section */
+.container-3{
+    background-color: #3a4452;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+}
+
+.container-3 h1{
+    margin: 25px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.project-container img{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 14px #33ffd8;
+}
+
+.project{
+    margin: 20px 50px;
+    
+}
+
+.project h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer and Contact Section */
+.container-4{
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.container-4 h1{
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    margin: 40px;
+}
+
+/* Hover Effects */
+.name + ul li:hover, .links li:hover{
+    text-decoration: 2px underline #33ffd8;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+span:hover{
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0.5s;
+}
+
+.image-box img:hover, .resume-btn:hover, .tab-btns h4:hover, .project img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+/* Responsiveness */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .image-box img{
+        height: 250px;
+    }
+
+    .sub-intro-box h1{
+        font-size: 30px;
+    }
+
+    .sub-intro-box h3{
+        font-size: 20px;
+    }
+
+    .project-container img{
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .image-box img{
+        height: 150px;
+    }
+
+    .sub-intro-box h1{
+        font-size: 20px;
+    }
+
+    .sub-intro-box h3{
+        font-size: 15px;
+    }
+
+    .project-container img{
+        height:100px;
+        width: 150px;
+    }
+
+    .links a{
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image-box img{
+        height: 120px;
+    }
+
+    .sub-intro-box h1{
+        font-size: 18px;
+    }
+
+    .sub-intro-box h3{
+        font-size: 12px;
+    }
+
+    .project-container img{
+        height: 80px;
+        width: 120px;
+    }
+
+    .project{
+        margin: 20px 30px;   
+    }
+
+    .project h4{
+        font-size: 14px;
+    }
+
+    .links a{
+        margin: 0px;
+    }
+
+    #about{
+        padding: 10px;
+    }
+
+    .container-2 h1{
+        margin: 10px 0px;
+        font-size: 25px;
+    }
+
+    .about-box{
+        margin: 5px 2px;
+        padding: 2px;
+    }
+
+    nav, .name{
+        font-size: 14px;
+    }
+
+    .tab-btns h4{
+        margin: auto 4px;
+    }
+
+    table{
+        font-size: 12px;
+    }
+}
